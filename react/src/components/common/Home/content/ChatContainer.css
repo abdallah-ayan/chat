@@ -1,0 +1,18 @@
+.chat-back-icon {
+  position: absolute;
+  inset: 0;
+  background-color: #242525;
+  mask-image: url("https://static.whatsapp.net/rsrc.php/yx/r/voSdkk88H7C.svg");
+  mask-repeat: repeat;
+  mask-mode: alpha;
+  mask-size: 540px 960px;
+}
+
+.chat-back-color {
+  position: absolute;
+  inset: 0;
+  background-color: #161717;
+  mask-repeat: repeat;
+  mask-mode: alpha;
+  mask-size: 540px 960px;
+}

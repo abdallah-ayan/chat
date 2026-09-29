@@ -1,0 +1,7 @@
+.Home {
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}

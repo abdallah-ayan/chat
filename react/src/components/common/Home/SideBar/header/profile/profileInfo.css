@@ -1,0 +1,43 @@
+@keyframes anim-top {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.profile-info {
+    position: absolute;
+
+    width: 320px;
+    height: 570px;
+
+    left: 60px;
+    top: 100px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #17192B;
+
+    border: 1px solid #30344F;
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.25);
+
+    animation: anim-top .2s forwards;
+}
+
+.profile-description {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.profile-description::-webkit-scrollbar {
+    display: none;
+}

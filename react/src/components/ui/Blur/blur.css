@@ -1,0 +1,11 @@
+.screen-blur {
+    position: fixed;
+    width: 100dvw;
+    height: 100dvh;
+    z-index: 100;
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    background: rgba(2, 6, 23, 0.731);
+}
